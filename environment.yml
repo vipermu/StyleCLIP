@@ -1,0 +1,16 @@
+name: clip
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=11
+  - python=3.8.5
+  - pytorch=1.7.1
+  - torchvision=0.8.2
+  - pip:
+    - git+https://github.com/openai/CLIP.git
+    - ftfy==5.8
+    - opencv-python==4.5.1.48
+    - regex==2020.11.13
+    - torch==1.7.1
+    - tqdm==4.56.0

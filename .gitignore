@@ -1,0 +1,8 @@
+*.avi
+*.jpg
+*.png
+*.pt
+
+generations/*
+
+__pycache__
