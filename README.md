@@ -8,7 +8,7 @@ After cloning this repo, enter into the StyleCLIP folder and run the following c
 conda env create -f environment.yml
 ```
 
-## StyleGAN Weights Download
+## StyleGAN Weights
 Download the `.pt` file from [here](https://github.com/lernapparat/lernapparat/releases/download/v2019-02-01/karras2019stylegan-ffhq-1024x1024.for_g_all.pt
 ) and store it inside the folder of this repo with the name `karras2019stylegan-ffhq-1024x1024.for_g_all.pt`.
 
