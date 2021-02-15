@@ -1,4 +1,4 @@
-name: clip
+name: styleclip
 channels:
   - pytorch
   - defaults
