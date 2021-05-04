@@ -108,7 +108,7 @@ def truncation(x, threshold=0.7, max_layer=8):
 
 def tensor_to_pil_img(img):
     img = (img.clamp(-1, 1) + 1) / 2.0
-    img = img[0].permute(1, 2, 0).detach().cpu().numpy() * 256
+    img = img[0].permute(1, 2, 0).detach().cpu().numpy() * 255
     img = Image.fromarray(img.astype('uint8'))
     return img
 
