@@ -59,7 +59,7 @@ lr = args.lr
 img_save_freq = args.img_save_freq
 ref_img_path = args.ref_img_path
 
-output_dir = os.path.join(output_path, f'"{prompt}"')
+output_dir = os.path.join(output_path, f'{prompt}')
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print("USING ", device)
